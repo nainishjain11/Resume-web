@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Connection - Nainish Jain | Contact &amp; Correspondence</title>
+  <meta name="description" content="Direct contact channels, verified CV dossier, and correspondence form for Nainish Jain.">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- header -->
+  <header class="header" id="main-header">
+    <div class="container nav-container">
+      <a href="./index.html" class="logo">Nainish Jain</a>
+      <button class="nav-toggle" id="nav-toggle">☰</button>
+      <nav class="nav-menu" id="nav-menu">
+        <ul>
+          <li><a href="./index.html">Cover</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./education.html">Education</a></li>
+          <li><a href="./achievements.html">Achievements</a></li>
+          <li><a href="./interests.html">Interests</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><button id="theme-toggle" class="theme-toggle">Light Mode</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main content -->
+  <main class="container">
+
+    <section>
+      <h1>If an idea is worth defending, it is worth discussing.</h1>
+      <p class="lede">Drop a note for case competitions, college team collaborations, or just to chat about business strategy.</p>
+
+      <div class="grid-2">
+
+        <div>
+          <h2>Direct Channels</h2>
+          <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 16px;">
+            <article class="card">
+              <span class="tag">Electronic Mail</span>
+              <h3>nainishjain11@gmail.com</h3>
+              <a href="mailto:nainishjain11@gmail.com">Send an email -></a>
+            </article>
+
+            <article class="card">
+              <span class="tag">Telephone</span>
+              <h3>+91 97139 26000</h3>
+              <a href="tel:+919713926000">Call directly -></a>
+            </article>
+
+            <article class="card">
+              <span class="tag">LinkedIn Network</span>
+              <h3>linkedin.com/in/nainishjain</h3>
+              <a href="https://www.linkedin.com/in/nainishjain" target="_blank">View LinkedIn Profile -></a>
+            </article>
+
+            <article class="card">
+              <span class="tag">Official Curriculum Vitae</span>
+              <h3>Verified CV Dossier (PDF)</h3>
+              <a href="./assets/Nainish_Jain_CV.pdf" target="_blank" class="btn" style="margin-top: 8px;">View &amp; Download CV -></a>
+            </article>
+
+            <p style="font-size: 14px; margin-top: 8px;">Location: Indore, Madhya Pradesh, India (IST / UTC+5:30)</p>
+          </div>
+        </div>
+
+        <div>
+          <h2>Send a Message</h2>
+          <form class="card" id="contact-form" action="mailto:nainishjain11@gmail.com" method="post">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Full name" required minlength="2">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label>Inquiry Type</label>
+              <div class="radio-group">
+                <label><input type="radio" name="inquiry_type" value="collaboration" checked> Collaboration</label>
+                <label><input type="radio" name="inquiry_type" value="competition"> Competition</label>
+                <label><input type="radio" name="inquiry_type" value="general"> General</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Collaboration, challenge invitation, or inquiry..." required minlength="10"></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message -></button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Nainish Jain | The Personal Archive | Indore, India</p>
+      <p><a href="mailto:nainishjain11@gmail.com">nainishjain11@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
