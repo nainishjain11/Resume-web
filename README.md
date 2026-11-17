@@ -17,4 +17,4 @@ This is a multi-page personal resume and portfolio website created using foundat
 - **CSS Box Model:** Universal reset with `box-sizing: border-box`, tactile offset shadows, and borders.
 - **Flexbox Layout:** 1D alignment for the sticky navigation bar, button groups, and footer.
 - **CSS Grid Layout:** 2D responsive grids (`grid-2`, `grid-3`, `grid-4`, `hero-split`, and `spotlight-card`) using `repeat()` and `fr` units.
-- **Responsive Design:** Media queries (`@media (max-width: 768px)`) for mobile layouts and hamburger menu.
+- **Responsive Design:** Media queries (`@media (max-width: 768px)`) for mobile layouts.
